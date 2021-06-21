@@ -9,17 +9,74 @@ body{
 }
 /* Global */
 
-/* Header__navbar */
+/* Container 1 */
 
-/* Header__showcase */
-
-/* Main */
-
-/* Footer */
-.footer__img{
-    width:60px;
-    height:60px;
-    object-fit:cover;
-    border-radius:50%;
+.container1{
 }
 
+.container1_box1{
+    margin:1rem;
+    margin-left:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:132px;
+}
+
+.container1_box1--img{
+}
+
+.container1_box1--text{
+    font-weight: bold;
+    color:white;
+}
+
+.container1_box2{
+    display:flex;
+    flex-direction:column;
+}
+
+.container1_box2--img{
+    margin-left:auto; /* Não consigo entender por que se eu não colocar isso aqui, a imagem desconfigura toda.*/
+    margin-right:auto;
+}
+
+.container1_box2--text{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Container 2 */
+
+.container2{
+    display:flex;
+}
+
+.container2--img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Container 3 */
+
+.container3{
+    display:flex;
+}
+
+.container3_box--text{
+    margin:1rem;
+    margin-right:auto;
+    padding:70px 0px 0px 10px;
+    color:white;
+    font-size:10px;
+    text-decoration:underline;
+
+}
+
+.container3_box--img{
+    margin:1rem;
+    margin-left:auto;
+}
